@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1d1d1d;
+}
+
+a {
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #6dff19;
+    border: 5px solid #6dff19;
+    border-radius: 50px;
+    text-transform: none;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #ffffff;
+    background:#4cb60e;
+    border: 5px;
+    box-shadow: 0 0 70px#4cb60e, 0 0 70px #6dff19, 0 0 70px #6dff19;
+    transition-delay: 0.1s;
+    filter: brightness(200%);
+}

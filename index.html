@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>Character</title>
+     <link rel="stylesheet" href="./main.css ">
+     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+     <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    </head>
+    <body style="background-color:#1d1d1d;">
+   <div id="app">
+    <div class="container">
+          <!-- title -->
+        <h5 class="title-sub">reCONNECT {{new Date().getFullYear()}}:BORDERLESS CANVAS</h5>
+        <h2 class="title" style="font-size: 1.5em;">{{title}}</h2>
+        <h2 class="title">{{subtitle}}</h2>
+          <!--/title  -->
+
+        <div class="d-flex outer 1">
+            <div class="box"><a href="./component/color1/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box"><a href="./component/color2/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 1"><a href="./component/color3/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 2"><a href="./component/color4/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 3"><a href="./component/color5/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 4"><a href="./component/color6/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 5"><a href="./component/color7/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 6"><a href="./component/color8/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 7"><a href="./component/color9/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 8"><a href="./component/color10/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 9"><a href="./component/color11/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 10"><a href="./component/color12/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 11"><a href="./component/color13/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 12"><a href="./component/color14/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <div class="d-flex outer">
+            <div class="box 13"><a href="./component/color15/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 14"><a href="./component/color16/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div>
+        <!-- <div class="d-flex outer">
+            <div class="box 15"><a href="./component/color1/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+            <div class="box 16"><a href="./component/color1/"><img src="./assest/img/rat.jpg"  target="_blank" style="border-radius: 10px 10px 10px 10px;"></a></div>
+        </div> -->
+     </div>
+    </div>
+
+     <script>
+        ;(function(){
+        // let data = {
+            
+        // }
+        let vm = new Vue({
+            el:"#app",
+            data:{
+               year: new Date().getFullYear(),
+              title:'角色選單',
+              subtitle:'Character select',
+              project:'C-LAB DOME & NTMFA U-108',
+              number:'0',
+              parameter:'改變參數',
+            },
+        })
+    })()
+       </script> 
+    </body>
+
+    </html>
+     
